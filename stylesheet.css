@@ -1,0 +1,663 @@
+body {
+	font-family: verdana;
+	background-image: url("new-bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	overflow-x: hidden;
+}	
+
+#nav {
+	margin: -1.5em 0 0 -.5em;
+	padding: 0;
+	top: 0;
+	font-family: "century gothic";
+	float: right;
+	width: 100%;
+}
+
+#nav ul {
+	list-style-type: none;
+}
+
+#nav li {
+	display: inline;
+	float: right;
+}
+
+#nav li a {
+	display: block;
+	text-align: center;
+	padding: 1em 1em;
+	text-decoration: none;
+	transition: transform .7s ease;
+	color: white;
+	
+}
+
+#nav a:link {
+	color: white;
+}
+
+#nav a:visited {
+	color: color: white;;
+}
+
+#nav a:hover {
+	background-color: #A8201A;
+}
+
+
+#index-header h1{
+	color: #ffffff;
+	font-family: impact;
+	font-weight: normal;
+	font-size: 9em;
+	margin: 1.6em 0 0 .2em;
+	line-height: 1em;
+}
+
+#index-header p{
+	width: 50%;
+	color: white;
+	font-size: 1.3em;
+	margin: 0em 0 0 2em;
+	font-family: "century gothic";
+	letter-spacing: .01em;
+	background-color: #190503;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#section-2 {
+	margin: 2.5em 0 0 1em;
+	border-radius: 10px;
+	width: 93%;
+}
+
+#section-2 img {
+	width: 20em;
+	height: 20em;
+	border-radius: 10px;
+}
+
+#section-2 a {
+	text-decoration: none;
+}
+
+#section-2 a #card-index{
+	color: black;
+	transition: transform .3s ease;
+}
+
+#section-2 a #card-index:hover {
+	transform: scale(1.02);
+	box-shadow: 5px 5px 20px #08201A;
+}
+
+#card-index {
+	background-color: white;
+	width: 20em;
+	height: 33.5em;
+	border-radius: 10px;
+	margin: 0 0 0 1.5em;
+}
+
+#card-index-details p {
+	width: 80%;
+	margin: 1em 0 0 1.7em;
+	padding-bottom: 1em;
+	font-family: "century gothic";
+	font-size: 1.1em;
+	text-align: justify;
+}
+
+/*below is BIOGRAPHY*/
+#bio-header {
+	margin: .3em 0 0 .2em;
+	font-family: impact;
+	font-weight: normal;
+	font-size: 9em;
+	color: white;
+	line-height: .9em;
+}
+
+#sub-nav {
+	margin: -3em 0 0 -1.2em;
+	font-family: "century gothic";
+}
+
+#sub-nav ul {
+	list-style-type: none;
+}
+
+#sub-nav li {
+	display: inline;
+	float: left;
+}
+
+#sub-nav li a {
+	display: block;
+	text-align: center;
+	padding: 1em 1em;
+	text-decoration: none;
+}
+
+#sub-nav a:link {
+	color: white;
+}
+
+#sub-nav a:visited {
+	color: white;
+}
+
+#sub-nav a:hover {
+	transform: scale(1.2);
+}
+
+#general-heading h4 {
+	font-size: 4em;
+	color: white;
+	font-family: impact;
+	margin: 2em 0 0 1.5em;
+	letter-spacing: .03em;
+	font-weight: normal;
+
+}
+
+#childhood, #teenage, #college {
+	font-family: "century gothic";
+}
+
+#childhood {
+	width: 65em;
+	margin: 0 0 0 5.5em;
+	background-color: #ffffff;
+	padding: 30px;
+	border-radius: 2%;
+
+}
+
+#childhood img {
+	width: 30em;
+	height: 22em;
+	border-radius: 3%;
+}
+
+#childhoodr1c1 {
+	width: 90%;
+	float: right;
+	text-align: right;
+	font-size: 1.2em;
+	font-style: italic;
+	margin: 9em .5em 0 0;
+	border-right: 4px solid #a8201a;
+}
+
+#childhoodr1c1 p {
+	margin: 0 1em 0 0;
+}
+
+#childhoodr1c2 {
+	width: 50%;
+}
+
+#childhoodr1c2 img {
+	float: left;
+}
+
+#childhoodr2c1 {
+	width: 50%;
+}
+
+#childhoodr2c1 img{
+	float: right;
+}
+
+#childhoodr2c2 {
+	width: 90%;
+	float: left;
+	text-align: left;
+	font-size: 1.2em;
+	font-style: italic;
+	margin: 6.5em 0 0 .5em;
+	border-left: 4px solid #a8201a;
+}
+
+#childhoodr2c2 p {
+	margin: 0 0 0 1em;
+}
+
+#childhoodr3c1 {
+	width: 90%;
+	float: right;
+	text-align: right;
+	font-size: 1.2em;
+	font-style: italic;
+	margin: 7.5em .5em 0 0;
+	border-right: 4px solid #a8201a;
+}
+
+#childhoodr3c1 p {
+	margin: 0 1em 0 0;
+}
+
+
+#teenage {
+	width: 65em;
+	margin: 0 0 0 5.5em;
+	background-color: #ffffff;
+	padding: 30px;
+	border-radius: 2%;
+
+}
+
+#teenage img {
+	width: 30em;
+	height: 23em;
+	border-radius: 3%;
+}
+
+#teenager1c1 {
+	width: 90%;
+	float: right;
+	text-align: right;
+	font-size: 1.2em;
+	font-style: italic;
+	margin: 6em .5em 0 0;
+	border-right: 4px solid #a8201a;
+}
+
+#teenager1c1 p {
+	margin: 0 1em 0 0;
+}
+
+#teenager1c2 {
+	width: 50%;
+}
+
+#teenager1c2 img {
+	float: left;
+}
+
+#teenager2c1 {
+	width: 50%;
+}
+
+#teenager2c1 img{
+	float: right;
+}
+
+#teenager2c2 {
+	width: 90%;
+	float: left;
+	text-align: left;
+	font-size: 1.2em;
+	font-style: italic;
+	margin: 10em 0 0 .5em;
+	border-left: 4px solid #a8201a;
+}
+
+#teenager2c2 p {
+	margin: 0 0 0 1em;
+}
+
+#teenager3c1 {
+	width: 90%;
+	float: right;
+	text-align: right;
+	font-size: 1.2em;
+	font-style: italic;
+	margin: 7.5em .5em 0 0;
+	border-right: 4px solid #a8201a;
+}
+
+#teenager3c1 p {
+	margin: 0 1em 0 0;
+}
+
+#college {
+	width: 65em;
+	margin: 0 0 0 5.5em;
+	background-color: #ffffff;
+	padding: 30px;
+	border-radius: 2%;
+
+}
+
+#college img {
+	width: 30em;
+	height: 22em;
+	border-radius: 3%;
+}
+
+#colleger1c1 {
+	width: 90%;
+	float: right;
+	text-align: right;
+	font-size: 1.2em;
+	font-style: italic;
+	margin: 9em .5em 0 0;
+	border-right: 4px solid #a8201a;
+}
+
+#colleger1c1 p {
+	margin: 0 .5em 0 0;
+}
+
+#colleger1c2 {
+	width: 50%;
+}
+
+#colleger1c2 img {
+	float: left;
+}
+
+#colleger2c1 {
+	width: 50%;
+}
+
+#colleger2c1 img{
+	float: right;
+}
+
+#colleger2c2 {
+	width: 90%;
+	float: left;
+	text-align: left;
+	font-size: 1.2em;
+	font-style: italic;
+	margin: 9em 0 0 .5em;
+	border-left: 4px solid #a8201a;
+}
+
+#colleger2c2 p {
+	margin: 0 0 0 .5em;
+}
+
+#colleger3c1 {
+	width: 90%;
+	float: right;
+	text-align: right;
+	font-size: 1.2em;
+	font-style: italic;
+	margin: 6.8em .5em 0 0;
+	border-right: 4px solid #a8201a;
+}
+
+#colleger3c1 p {
+	margin: 0 .5em 0 0;
+}
+
+/*below is RESUME*/
+
+#resume-pic {
+	border-radius: 50%;
+	width: 10em;
+	height: 10em;
+	margin: 2em 0 0 0em;
+	padding-right: 20px;
+	padding-left: 10px;
+	float: left;
+}
+
+#resume-header {
+	margin: .3em 0 0 1.2em;
+	font-size: 4.5em;
+	font-family: georgia;
+}
+
+#resume-details {
+	width: 68em;
+	margin: 0em 0 0 2em;
+	background-color: white;
+	padding: 15px;
+	border-radius: 10px;
+	font-family: "century gothic";
+}
+
+#resume-details h3 {
+	font-size: 2em;
+}
+
+#resume-details p {
+	padding-left: .5em;
+	margin: -1em 0 0 9em;
+	text-align: justify;
+	line-height: 1.4em;
+	font-size: 1.2em;
+	width: 80%;
+	padding-bottom: 15px;
+}
+
+#educ-attainment {
+	width: 35em;
+	margin: 1em 0 0 5.5em;
+	background-color: #ffffff;
+	border-radius: 3%;
+	padding: 3px;
+}
+
+.sub-heading {
+	font-size: 3.3em;
+	font-family: georgia;
+	margin: 1em 0 0 1.5em;
+	width: 10em;
+
+}
+.sub-heading-hr {
+	color: #A8201A;
+	font-size: 3em;
+	margin: -1em 0 0 2.2em;
+} 
+
+#educ-attainment ul {
+	margin: 1.5em 0 0 0;
+	font-family: "century gothic";
+	font-size: 1.2em;
+	line-height: 1.5em;
+	width: 90%;
+}
+
+#additional-info {
+	width: 35em;
+	margin: 1em 0 0 5.5em;
+	background-color: #ffffff;
+	border-radius: 3%;
+	padding: 3px;
+}
+
+#additional-info ol {
+	margin: 1.5em 0 0 0;
+	font-family: "century gothic";
+	font-size: 1.2em;
+}
+
+#proficiency {
+	width: 28em;
+	height: 7em;
+	background-color: white;
+	margin: 1em 0 0 5.5em;
+	border-radius: 10px;
+}
+
+#proficiency img {
+	width: 4.5em;
+	height: 4.5em;
+}
+
+#proficiency a img{
+	transition: transform .3s ease;
+}
+
+#proficiency a img:hover {
+	transform: scale(1.1);
+}
+
+#contact {
+	width: 28em;
+	height: 7em;
+	background-color: white;
+	margin: 1em 0 0 5.5em;
+	border-radius: 10px;
+}
+
+#contact a img{
+	transition: transform .3s ease;
+}
+
+#contact a img:hover {
+	transform: scale(1.1);
+}
+
+/*GALLERy*/
+#main-gallery {
+	margin: 1em 0 0 5em;
+	padding-right: 2em;
+	padding-left: 1em;
+	padding-bottom: 1em;
+	background-color: white;
+	border-radius: 10px;
+}
+
+#main-gallery img {
+	width: 15em;
+	height: 10em;
+	margin: 1.3em 0 0 1em;
+	border-radius: 10px;
+}
+
+#main-gallery a img {
+	transition: transform .3s ease;
+}
+
+#main-gallery a img:hover {
+	transform: scale(1.02);
+}
+
+/*SKILLS*/
+#modified-childhood, #modified-teenage, #modified-college {
+	font-family: "century gothic";
+}
+
+#modified-childhood {
+	width: 65em;
+	margin: 0 0 0 5.5em;
+	background-color: #ffffff;
+	padding: 30px;
+	border-radius: 2%;
+
+}
+
+#modified-childhood img {
+	width: 30em;
+	height: 22em;
+	border-radius: 3%;
+	margin: 0 1em 0 0;
+}
+
+#modified-childhoodr1c1 {
+	float: right;
+	font-size: 1.2em;
+	margin: 9em .5em 0 0;
+}
+
+/*TRAVEL*/
+#travel-1 {
+	margin: 0 0 0 5.5em;
+}
+
+#travel-1 img {
+	transform: scale(.5);
+	margin: -16em 0 0 -30em;
+	
+	border: 2px gray solid;
+	border-radius: 10px;
+}
+
+#margin-adjustor {
+	margin: -10em 0 0 0;
+}
+
+/*BEATS*/
+#pop {
+	margin: 1em 0 0 5.5em;
+	background-color: white;
+	width: 65em;
+	border-radius: 10px;
+	font-family: "century gothic";
+}
+
+#indie {
+	margin: 1em 0 0 5.5em;
+	background-color: white;
+	width: 65em;
+	border-radius: 10px;
+	font-family: "century gothic";
+}
+
+#rnb {
+	margin: 1em 0 0 5.5em;
+	background-color: white;
+	width: 65em;
+	border-radius: 10px;
+	font-family: "century gothic";
+}
+
+#artist {
+	width: 18em;
+	height: 18em;
+	margin: 1.5em 0 0 2.5em;
+	border-radius: 50%;
+	padding-right: 10px;
+}
+
+#album-cover {
+	width: 12em;
+	height: 12em;
+	margin: 2em 0 0 5.4em;
+	border-radius: 10px;
+}
+
+#audio {
+	margin: 0 0 0 1.9em;
+	transform: scale(.6);
+}
+
+/*MOVIES*/
+#movie-container {
+	margin: 1em 0 0 5.5em;
+	background-color: white;
+	width: 60em;
+	border-radius: 10px;
+	font-family: "century gothic";
+	
+}
+
+#geisha-cover {
+	width: 20em;
+	height: 30em;
+	border-radius: 10px;
+	margin: 1em 0 0 1em;
+}
+
+#geisha-clip {
+	border-radius: 10px;
+	margin: 2em 0 0 1em;
+}
+
+/*bucket*/
+#bucket-div {
+	margin: 1em 0 0 5.5em;
+	background-color: white;
+	width: 50em;
+	height: 12em;
+	border-radius: 10px;
+	font-family: "century gothic";
+	font-size: 1.2em;
+}
+
+#bucket-div ul {
+	padding-top: 30px
+}
+
